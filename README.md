@@ -1,3 +1,12 @@
+# Aplikasi Praktikum Web Laravel
+
+Aplikasi ini merupakan proyek berbasis framework Laravel yang bertujuan untuk mempelajari konsep dasar pengembangan web modern, seperti routing, controller, view, dan struktur MVC. Aplikasi ini digunakan sebagai media latihan praktikum dalam membangun aplikasi web yang modular dan terstruktur.
+
+<!--
+Penjelasan Perbedaan Model, View, dan Controller (MVC):
+Model bertanggung jawab mengelola logika data dan interaksi dengan database. View bertugas menampilkan antarmuka dan format tampilan informasi kepada pengguna. Controller bertindak sebagai jembatan yang menerima permintaan pengguna, memproses logika aplikasi melalui Model, lalu menentukan View mana yang harus ditampilkan.
+-->
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -33,14 +42,14 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
+- *[Vehikl](https://vehikl.com)*
+- *[Tighten Co.](https://tighten.co)*
+- *[Kirschbaum Development Group](https://kirschbaumdevelopment.com)*
+- *[64 Robots](https://64robots.com)*
 - **[Curotec](https://www.curotec.com/services/technologies/laravel)**
 - **[DevSquad](https://devsquad.com/hire-laravel-developers)**
 - **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- *[Active Logic](https://activelogic.com)*
 
 ## Contributing
 
