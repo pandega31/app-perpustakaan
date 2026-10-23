@@ -6,9 +6,10 @@
     <style>
         body { font-family: sans-serif; margin: 40px; max-width: 500px; }
         label { display: block; margin-top: 12px; font-weight: bold; }
-        input, select { width: 100%; padding: 6px; margin-top: 4px; box-sizing: border-box; }
+        input:not([type="checkbox"]), select { width: 100%; padding: 6px; margin-top: 4px; box-sizing: border-box; }
         .checkbox-list { border: 1px solid #ccc; border-radius: 4px; padding: 10px; margin-top: 4px; max-height: 200px; overflow-y: auto; }
-        .checkbox-list label { display: block; font-weight: normal; margin-top: 0; }
+        .checkbox-list label { display: flex; align-items: center; gap: 8px; font-weight: normal; margin-top: 0; padding: 4px 0; cursor: pointer; }
+        .checkbox-list input[type="checkbox"] { width: 16px; height: 16px; margin: 0; flex-shrink: 0; }
         .error { color: #b91c1c; font-size: 14px; margin-top: 4px; }
         .btn { margin-top: 20px; padding: 8px 16px; background: #2563eb; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
     </style>
